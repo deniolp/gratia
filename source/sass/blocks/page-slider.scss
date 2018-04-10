@@ -1,0 +1,38 @@
+.page-slider {
+  position: relative;
+  width: 100%;
+  height: calc(100vh - 50px);
+}
+
+.page-slider__big-slogan {
+}
+
+.page-slider__slides {
+  @include list-reset;
+}
+
+.page-slider__arrow {
+  position: absolute;
+}
+
+.page-slider__slides {
+  position: absolute;
+}
+
+.page-slider__book {
+  position: absolute;
+}
+
+.page-slider__image {
+  position: absolute;
+  background-image: url("../img/knife.png");
+  background-position-x: center;
+  background-position-y: -30px;
+  background-repeat: no-repeat;
+  background-size: cover;
+  width: 600px;
+  min-height: 406px;
+  margin-left: 50%;
+  transform: translateX(-50%);
+
+}

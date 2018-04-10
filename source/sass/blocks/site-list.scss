@@ -1,0 +1,6 @@
+.site-list {
+  width: 100%;
+  min-height: 50px;
+  @include list-reset;
+  display: flex;
+}
