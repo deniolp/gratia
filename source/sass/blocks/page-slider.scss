@@ -5,6 +5,40 @@
 }
 
 .page-slider__big-slogan {
+  margin: 0;
+  padding: 30px 0 0 0;
+  position: absolute;
+  left: 50%;
+  transform: translateX(-50%);
+  width: 700px;
+}
+
+.page-slider__slogan-back {
+  display: block;
+  font-family: 'Montserrat', Arial, sans-serif;
+  font-size: 75px;
+  color: $header-color;
+  font-weight: bold;
+  line-height: 0.716;
+  text-shadow: 0px 0px 85px #020202;
+  text-transform: uppercase;
+  margin-bottom: 120px;
+
+  &:first-child {
+    padding-left: 140px;
+  }
+
+  &:nth-child(2) {
+    margin-right: 375px;
+  }
+
+  &:last-child {
+    padding-left: 70px;
+  }
+}
+
+.page-slider__slogan-back--span {
+  display: inline-block;
 }
 
 .page-slider__slides {
@@ -25,14 +59,17 @@
 
 .page-slider__image {
   position: absolute;
-  background-image: url("../img/knife.png");
+  background: url("../img/knife.png"),
+    no-repeat;
   background-position-x: center;
   background-position-y: -30px;
-  background-repeat: no-repeat;
   background-size: cover;
   width: 600px;
   min-height: 406px;
-  margin-left: 50%;
+  left: 50%;
   transform: translateX(-50%);
+}
 
+.page-slider__small-slogan {
+  font-family: 'Crimson Text', Georgia, serif;
 }
