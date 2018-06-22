@@ -22,18 +22,24 @@
   line-height: 0.716;
   text-shadow: 0px 0px 85px #020202;
   text-transform: uppercase;
-  margin-bottom: 120px;
+  margin-bottom: 114px;
 
   &:first-child {
     padding-left: 140px;
   }
 
   &:nth-child(2) {
-    margin-right: 375px;
+    margin-right: 370px;
+    font-size: 80px;
+  }
+  
+  &:nth-child(3) {
+    font-size: 80px;
   }
 
-  &:last-child {
+  &:nth-child(4) {
     padding-left: 70px;
+    margin-bottom: 70px;
   }
 }
 
@@ -62,7 +68,7 @@
   background: url("../img/knife.png"),
     no-repeat;
   background-position-x: center;
-  background-position-y: -30px;
+  background-position-y: 2px;
   background-size: cover;
   width: 600px;
   min-height: 406px;
@@ -71,5 +77,10 @@
 }
 
 .page-slider__small-slogan {
+  display: inline-block;
   font-family: 'Crimson Text', Georgia, serif;
+  color: #485471;
+  font-size: 24px;
+  line-height: 36px;
+  margin-left: 200px;
 }
