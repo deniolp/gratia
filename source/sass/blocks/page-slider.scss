@@ -49,13 +49,33 @@
 
 .page-slider__slides {
   @include list-reset;
+  position: absolute;
+  bottom: 60px;
+  left: 30px;
+}
+
+.page-slider__slide {
+  margin-bottom: 40px;
+}
+
+.page-slider__button {
+  border: none;
+  background-color: inherit;
+  color: white;
+  font-family: 'Montserrat', Arial, sans-serif;
+  font-size: 16px;
+  line-height: 26px;
+  font-weight: bold;
+  width: 60px;
+  text-align: left;
+  
+  &--active {
+    color: #d89b64;
+    border-bottom: solid 2px #d89b64;
+  }
 }
 
 .page-slider__arrow {
-  position: absolute;
-}
-
-.page-slider__slides {
   position: absolute;
 }
 
@@ -90,6 +110,7 @@
 .page-slider__small-slogan {
   display: inline-block;
   font-family: 'Crimson Text', Georgia, serif;
+  font-style: italic;
   color: #485471;
   font-size: 24px;
   line-height: 36px;
