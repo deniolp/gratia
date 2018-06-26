@@ -68,6 +68,7 @@
   font-weight: bold;
   width: 60px;
   text-align: left;
+  cursor: pointer;
   
   &--active {
     color: #d89b64;
@@ -77,6 +78,24 @@
 
 .page-slider__arrow {
   position: absolute;
+  top: 190px;
+  width: 40px;
+  height: 65px;
+  border: none;
+  background-color: inherit;
+  background: url("../img/arrow.png"),
+    no-repeat;
+  background-position: center;
+  background-size: contain;
+  
+  &--left {
+    left: 20px;
+  }
+  
+  &--right {
+    right: 20px;
+    transform: rotateY(180deg);
+  }
 }
 
 .page-slider__book {
