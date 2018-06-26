@@ -1,6 +1,20 @@
 .site-list {
-  width: 100%;
-  min-height: 50px;
+  width: 400px;
+  min-height: 30px;
   @include list-reset;
   display: flex;
+  flex-wrap: wrap;
+  padding-top: 8px;
+}
+
+.site-list__item {
+  margin-right: 50px;
+}
+
+.site-list__item a {
+  font-family: 'Montserrat', Arial, sans-serif;
+  font-weight: bold;
+  font-size: 14px;
+  line-height: 20px;
+  color: white;
 }
