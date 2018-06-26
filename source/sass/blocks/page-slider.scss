@@ -70,6 +70,10 @@
   text-align: left;
   cursor: pointer;
   
+  &:hover {
+    color: #d89b64;
+  }
+  
   &--active {
     color: #d89b64;
     border-bottom: solid 2px #d89b64;
@@ -112,6 +116,10 @@
   line-height: 26px;
   font-weight: bold;
   cursor: pointer;
+  
+  &:hover {
+    color: #fa9b64;
+  }
 }
 
 .page-slider__image {
@@ -125,6 +133,7 @@
   min-height: 406px;
   left: 50%;
   transform: translateX(-45%);
+  z-index: 10;
 }
 
 .page-slider__small-slogan {
