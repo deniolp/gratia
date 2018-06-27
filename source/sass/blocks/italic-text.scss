@@ -1,4 +1,4 @@
-.main-text {
+.italic-text {
   font-family: 'Crimson Text', Georgia, serif;
   font-style: italic;
   color: $grey-text;
@@ -6,4 +6,9 @@
   line-height: 36px;
   margin: 0;
   padding: 0;
+  
+  &--details {
+    display: inline-block;
+    margin-bottom: 20px;
+  }
 }
