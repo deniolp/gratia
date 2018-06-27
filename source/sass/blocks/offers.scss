@@ -6,6 +6,7 @@
   flex-flow: row;
   justify-content: space-between;
   min-height: 480px;
+  margin-bottom: 50px;
 }
 
 .offers__item {
@@ -74,5 +75,30 @@
   
   & span {
     color: white;
+  }
+}
+
+.offers__footer a {
+  font-family: 'Montserrat', Arial, sans-serif;
+  text-transform: uppercase;
+  font-size: 14px;
+  line-height: 20px;
+  font-weight: bold;
+  color: $brown-color;
+  display: inline-block;
+  position: relative;
+  
+  &::after {
+    position: absolute;
+    content: '';
+    top: 25px;
+    left: 0;
+    width: 100%;
+    height: 1px;
+    background-color: $brown-color;
+  }
+  
+  &:hover {
+    color: $brown-hover;
   }
 }
