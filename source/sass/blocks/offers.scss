@@ -10,23 +10,28 @@
 
 .offers__item {
   width: 32%;
+  height: 300px;
   background-repeat: no-repeat;
   background-position: center;
   background-size: 100% auto;
-  padding: 20px 0 20px;
   background-color: white;
+  z-index: 11;
   
   &:first-child {
     background-image: url("../img/deserts.jpg");
+    margin-top: 90px;
   }
   
   &:nth-child(2) {
     background-image: url("../img/raspberry.jpg");
     background-size: 160%;
-    box-shadow: 0px 0px 183px 0px rgba(229, 230, 235, 0.5);
+    box-shadow: 0px 0px 183px 0px rgb(229, 230, 235);
+    z-index: 10;
+    min-height: 480px;
   }
   
   &:nth-child(3) {
     background-image: url("../img/breakfast.jpg");
+    margin-top: 90px;
   }
 }
