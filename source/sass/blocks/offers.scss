@@ -28,10 +28,51 @@
     box-shadow: 0px 0px 183px 0px rgb(229, 230, 235);
     z-index: 10;
     min-height: 480px;
+    
+    & h3 {
+      color: black;
+      margin-top: 85%;
+      
+      &::after {
+        background-color: white;
+      }
+    }
+    
+    & span {
+      color: $grey-text;
+    }
   }
   
   &:nth-child(3) {
     background-image: url("../img/breakfast.jpg");
     margin-top: 90px;
+  }
+  
+  & h3 {
+    margin: 0;
+    padding: 0;
+    font-family: 'Montserrat', Arial, sans-serif;
+    text-transform: uppercase;
+    font-size: 32px;
+    line-height: 32px;
+    font-weight: bold;
+    color: $brown-color;
+    margin-top: 25%;
+    position: relative;
+    margin-bottom: 30px;
+    
+    &::after {
+      position: absolute;
+      content: '';
+      top: 50px;
+      left: 45%;
+      width: 30px;
+      height: 1px;
+      background-color: $brown-color;
+    }
+  }
+  
+  & span {
+    color: white;
   }
 }
