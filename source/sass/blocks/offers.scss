@@ -1,0 +1,32 @@
+.offers__list {
+  @include list-reset;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  flex-flow: row;
+  justify-content: space-between;
+  min-height: 480px;
+}
+
+.offers__item {
+  width: 32%;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: 100% auto;
+  padding: 20px 0 20px;
+  background-color: white;
+  
+  &:first-child {
+    background-image: url("../img/deserts.jpg");
+  }
+  
+  &:nth-child(2) {
+    background-image: url("../img/raspberry.jpg");
+    background-size: 160%;
+    box-shadow: 0px 0px 183px 0px rgba(229, 230, 235, 0.5);
+  }
+  
+  &:nth-child(3) {
+    background-image: url("../img/breakfast.jpg");
+  }
+}
