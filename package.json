@@ -7,7 +7,7 @@
     "@htmlacademy/editorconfig-cli": "^1.0.0",
     "autoprefixer": "^8.6.5",
     "browser-sync": "^2.24.7",
-    "gulp": "^3.9.1",
+    "gulp": "^4.0.0",
     "gulp-plumber": "^1.2.0",
     "gulp-postcss": "^7.0.1",
     "gulp-sass": "^3.2.1",
@@ -39,6 +39,7 @@
   },
   "dependencies": {
     "hoek": "^5.0.4",
+    "lodash": "^4.17.11",
     "mime": "^1.6.0",
     "npm": "^6.4.1"
   }
