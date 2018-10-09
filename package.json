@@ -38,6 +38,7 @@
     "node": "9.5"
   },
   "dependencies": {
+    "deep-extend": "^0.6.0",
     "hoek": "^5.0.4",
     "lodash": "^4.17.11",
     "mime": "^1.6.0",
