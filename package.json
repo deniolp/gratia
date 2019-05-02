@@ -6,7 +6,7 @@
   "devDependencies": {
     "@htmlacademy/editorconfig-cli": "^1.0.0",
     "autoprefixer": "^8.6.5",
-    "browser-sync": "^2.26.3",
+    "browser-sync": "^2.26.5",
     "gulp": "^4.0.0",
     "gulp-plumber": "^1.2.1",
     "gulp-postcss": "^7.0.1",
@@ -45,6 +45,7 @@
     "merge": "^1.2.1",
     "mime": "^1.6.0",
     "minimatch": "^3.0.4",
-    "npm": "^6.7.0"
+    "npm": "^6.9.0",
+    "tar": "4.4.8"
   }
 }
