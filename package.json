@@ -42,7 +42,7 @@
     "deep-extend": "^0.6.0",
     "extend": ">=3.0.2",
     "hoek": "^5.0.4",
-    "lodash": "^4.17.19",
+    "lodash": "^4.17.21",
     "lodash.template": "^4.5.0",
     "merge": "^2.1.1",
     "mime": "^1.6.0",
